@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <header class=" w-1/2 flex justify-between p-5 items-center sm:w-[100vw] ">
+        <div class="flex items-center space-x-2">
+            <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600" alt="Your Company"
+                class="h-6 w-auto">
+        </div>
+        <ul class="hidden lg:flex justify-center  items-center gap-10 font-semibold cursor-pointer">
+            <li>Product</li>
+            <li>Features</li>
+            <li>Marketplace</li>
+            <li>Company</li>
+        </ul>
+        <div class="flex justify-between">
+            <a class="hidden lg:flex cursor-pointer hover:text-blue-700 font-semibold" href="#">
+                Log in <i class="bi bi-arrow-right"></i>
+            </a>
+            <span class=" lg:hidden text-2xl font-bold"><i class="bi bi-list"></i></span>
+        </div>
+        
+    </header>
+    <main class="flex flex-col md:flex-row h-screen">
+    <!-- Left Content -->
+    <div class="flex-grow flex items-center justify-center p-6">
+        <div class="w-full max-w-xl">
+            <div class="hidden lg:flex justify-center items-center mb-5">
+                <p class="border border-pink-300 px-5 py-1 rounded-full text-stone-600 font-semibold">
+                    Announcing our next round of funding.
+                    <a class="text-blue-700 font-semibold ml-2" href="#">Read more <i class="bi bi-arrow-right"></i></a>
+                </p>
+            </div>
+            <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold text-center">
+                Data to enrich your online business
+            </h1>
+            <p class="mt-5 text-center text-stone-600 text-lg">
+                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+            </p>
+            <div class="text-center mt-7">
+                <button class="bg-blue-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-blue-500">Get Started</button>
+                <a class="ml-4 font-medium text-blue-600 hover:underline" href="#">Learn more <i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Image -->
+    <div class="flex-grow relative">
+        <img src="https://www.parkregisbirmingham.co.uk/wp-content/uploads/2016/10/business-meeting-birmingham.jpg"
+            alt="Working on laptop" class="object-cover h-full w-full">
+    </div>
+</main>
+
+</body>
+
+</html>
